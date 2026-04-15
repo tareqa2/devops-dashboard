@@ -1,3 +1,7 @@
+import sysinfo
+import logcheck
+import tasklist
+
 def main():
     while True:
         print("\n=== DevOps Dashboard ===")
@@ -9,19 +13,16 @@ def main():
         choice = input("Select an option: ")
 
         if choice == "1":
-            print("Coming soon...")
+            sysinfo.show_sysinfo()
         elif choice == "2":
-            print("Coming soon...")
+            logcheck.check_log()
         elif choice == "3":
-            print("Coming soon...")
+            tasklist.manage_tasks()
         elif choice == "0":
             print("Exiting...")
             break
         else:
             print("Invalid choice, try again.")
 
-
 if __name__ == "__main__":
     main()
-
-
