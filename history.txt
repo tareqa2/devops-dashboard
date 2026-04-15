@@ -1,0 +1,47 @@
+    1  cd ~
+    2  git clone https://github.com/tareqa2/devops-dashboard.git
+    3  cd devops-dashboard
+    4  git remote -v
+    5  ls
+    6  ls -la
+    7  touch main.py
+    8  code main.py
+    9  nano main.py
+   10  python3 main.py
+   11  git add main.py
+   12  git commit -m "Add main menu CLI"
+   13  git push
+   14  git pull
+   15  ls -la
+   16  nano main.py
+   17  python3 main.py
+   18  nano main.py
+   19  python3 main.py
+   20  nano main.py
+   21  python3 main.py
+   22  git add main.py
+   23  git commit -m "fix main"
+   24  nano main.py
+   25  git add main.py
+   26  git commit -m "logcheck into main"
+   27  nano main.py
+   28  git add main.py
+   29  git commit -m "task into main"
+   30  git push origin main
+   31  git log --oneline
+   32  git config --global user.name
+   33  git config --global user.email
+   34  ssh-keygen -t ed25519 -C "tarikalaiyan@campus.technion.ac.il"
+   35  cat ~/.ssh/id_ed25519.pub
+   36  ssh -T git@github.com
+   37  git remote -v
+   38  git remote set-url origin git@github.com:tareqa2/devops-dashboard.git
+   39  git remote -v
+   40  cat ~/.ssh/id_ed25519.pub
+   41  echo "SSH authentication enabled" >> README.md
+   42  git add README.md
+   43  git commit -m "Switch to SSH authentication"
+   44  git push
+   45  git pull
+   46  cat README.md
+   47  history > history.txt
