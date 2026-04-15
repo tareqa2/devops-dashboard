@@ -17,7 +17,7 @@ def main():
         elif choice == "2":
             logcheck.check_log()
         elif choice == "3":
-            tasklist.manage_tasks()
+            print("Coming soon...")
         elif choice == "0":
             print("Exiting...")
             break
